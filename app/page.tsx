@@ -673,7 +673,7 @@ export default function Portfolio() {
 
 const downloadResume = () => {
   const link = document.createElement("a");
-  link.href = "/assets/priyanshu-resume-techie-2025-2.pdf"; // Adjust the path as per your file location
+  link.href = "/assets/priyanshu- resume-techie-2025-2.pdf"; // Adjust the path as per your file location
   link.download = "Priyanshu_Kumar_Resume.pdf";
   document.body.appendChild(link); // Needed for Firefox
   link.click();
